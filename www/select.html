@@ -1,0 +1,72 @@
+<!DOCTYPE HTML> 
+<html>
+<head>
+<title>Methody Mobile</title>
+<meta http-equiv="X-UA-Compatible" content="IE=8">
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'/> 
+<link href='style.css' rel='stylesheet'/>
+<style>
+
+/* Swipe 2 required styles */
+
+.swipe {
+  overflow: hidden;
+  visibility: hidden;
+  position: relative;
+}
+.swipe-wrap {
+  overflow: hidden;
+  position: relative;
+}
+.swipe-wrap > div {
+  float:left;
+  width:100%;
+  position: relative;
+}
+
+/* END required styles */
+
+</style>
+
+ <link href='http://fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css'>
+ <link href='http://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
+ <link href='http://fonts.googleapis.com/css?family=Bree+Serif|Open+Sans:300' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+<img src="img/school.png">
+<h2>Swipe left to find the relevant year group.</h2>
+
+
+<div id='mySwipe' style='max-width:400px;margin:0 auto' class='swipe'>
+  <div class='swipe-wrap'>
+    <div><a href="first_year.html"><b>First Form</b></a></div>
+    <div><a href="#"><b>Second Form</b></a></div>
+    <div><a href="third_year.html"><b>Third Form</b></a></div>
+    <div><a href="#"><b>Fourth Form</b></a></div>
+    <div><a href="#"><b>Fifth Form</b></a></div>
+    <div><a href="#"><b>Lower Sixth</b></a></div>
+    <div><a href="#"><b>Upper Sixth</b></a></div>
+  </div>
+</div>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src='js/swipe.js'></script>
+<script>
+
+// pure JS
+var elem = document.getElementById('mySwipe');
+window.mySwipe = Swipe(elem, {
+  // startSlide: 4,
+  // auto: 3000,
+  // continuous: true,
+  // disableScroll: true,
+  // stopPropagation: true,
+  // callback: function(index, element) {},
+  // transitionEnd: function(index, element) {}
+});
+
+// with jQuery
+// window.mySwipe = $('#mySwipe').Swipe().data('Swipe');
+
+</script>

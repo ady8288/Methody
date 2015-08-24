@@ -1,0 +1,115 @@
+body {
+    background-color: rgb(32,134,251);
+    color: white;
+    text-align: center;
+    font-family: 'Lato';
+    font-weight: 300;
+    font-size: 18px;
+}
+
+#three {
+  margin-top: 20px;
+}
+
+li {
+    list-style: none;
+}    
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+h4 {
+    text-align: center;
+    padding-top: 15px;
+    font-size: 15px;
+    padding-bottom: 15px;
+    padding-right: 30px;
+    padding-left: 30px;
+    background-color: white;
+    color: rgb(32,134,251);
+
+}
+
+img {
+    width: 300px;
+    max-width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 40vh;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h1 {
+    font-family: 'Bree Serif';
+    margin-top: -80px;
+}
+
+h2, h3 {
+    font-family: 'Lato';
+    text-align: justify;
+    max-width: 270px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+    font-weight: 300;
+}
+
+#continue {
+    padding: 15px;
+    padding-left:100px;
+    padding-right:100px;
+    background-color: rgb(46,204,113);
+    margin-top: 15px;
+    border-radius: 50px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Lato';
+
+}
+
+h3 {
+  font-size: 18px;
+}
+
+h1 {
+  font-size: 26px;
+  margin-top: -70px;
+}
+
+.swipe {
+  overflow: hidden;
+  visibility: hidden;
+  position: relative;
+  background-color: rgb(46,204,113);
+  color: white;
+  height: 150px;
+}
+.swipe-wrap {
+  overflow: hidden;
+  position: relative;
+  background-color: rgb(46,204,113);
+  color: white;
+  height: 150px;
+}
+.swipe-wrap > div {
+  float:left;
+  width:100%;
+  position: relative;
+  background-color: rgb(46,204,113);
+  color: white;
+  height: 150px;
+}
+
+.swipe-wrap > div > a {
+  max-width: 100%;
+  max-height: 100%;
+  background-color: rgb(46,204,113);
+}

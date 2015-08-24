@@ -1,0 +1,49 @@
+<!DOCTYPE html!>
+
+<html>
+
+<head>
+
+    <title>New own RSS reader demonstration</title>
+   
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+
+    <script type="text/javascript" src="js/first_year.js"></script>
+
+    <link href='http://fonts.googleapis.com/css?family=Bree+Serif|Open+Sans:300' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'> 
+
+</head>
+
+ <body id="three">
+
+   <script >
+<!--
+
+var m_names = ["January", "February", "March", 
+"April", "May", "June", "July", "August", "September", 
+"October", "November", "December"];
+
+var d_names = ["Sunday","Monday", "Tuesday", "Wednesday", 
+"Thursday", "Friday", "Saturday"];
+
+var myDate = new Date();
+myDate.setDate(myDate.getDate()+0);
+var curr_date = myDate.getDate();
+var curr_month = myDate.getMonth();
+var curr_day  = myDate.getDay();
+document.write(d_names[curr_day] + ", " + curr_date + " " + m_names[curr_month]);
+
+//-->
+</script>
+
+   <div class="example">
+        <div class="post_results" id="post_results1" rss_num="8" rss_url="http://rss.news.yahoo.com/rss/topstories">
+            <div class="loading_rss">
+          <img alt="Loading..." src="images/loading.gif" />
+
+        </div>
+
+     </div>
+  </body>
+</html>
